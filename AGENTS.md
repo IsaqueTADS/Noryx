@@ -1,3 +1,21 @@
+# Noryx — instruções para agentes
+
+Antes de alterar o projeto, leia todos os arquivos abaixo. Eles são regras obrigatórias do aplicativo, mesmo quando o editor não carregar `.agents/rules` automaticamente:
+
+1. [.agents/rules/noryx-decisoes.md](.agents/rules/noryx-decisoes.md)
+2. [.agents/rules/produto-e-escopo.md](.agents/rules/produto-e-escopo.md)
+3. [.agents/rules/typescript.md](.agents/rules/typescript.md)
+4. [.agents/rules/react-native.md](.agents/rules/react-native.md)
+5. [.agents/rules/expo-router.md](.agents/rules/expo-router.md)
+6. [.agents/rules/nativewind.md](.agents/rules/nativewind.md)
+7. [.agents/rules/git.md](.agents/rules/git.md)
+
+Aplicativo Android primeiro. Stack desta fundação: Expo SDK 57, React Native, TypeScript, Expo Router, NativeWind 4 e development build. Usar npm e preservar package-lock.json. As instruções da conversa prevalecem sobre regras locais.
+
+O design de referência fica em `../design/Noryx-design.pen`, acessível somente pelo MCP do Pencil. Esta etapa contém telas iniciais de estrutura, não a implementação completa do design ou da VPN. Não apresentar dados simulados como reais.
+
+## Orientações oficiais preservadas do preset Expo
+
 This is an Expo/React Native mobile application. Prioritize mobile-first patterns, performance, and cross-platform compatibility.
 
 ## Expo has changed — do not trust your training data
